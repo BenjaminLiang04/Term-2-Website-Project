@@ -1,0 +1,12 @@
+div { border: 10px solid black; 
+}
+
+li { float: left;
+}
+
+li a { display: block;
+width: 60px;
+text-decoration: none;
+padding: 14px 16px;
+text-align: center;
+}
