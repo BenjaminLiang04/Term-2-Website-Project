@@ -1,4 +1,4 @@
-
+	
 li { float: left;
 }
 
@@ -7,8 +7,12 @@ li a { display: block;
 	text-decoration: none;
 	padding: 14px 16px;
 	text-align: center;
+	color: #6C6586;
 }
 
+a:link { text-decoration: none;
+	color: #26ADE4;
+}
 
 ul {
 	list-style-type: none;
@@ -17,12 +21,17 @@ ul {
 	overflow: hidden;
 }
 
-
+body { background-image: url('zorasdom.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
 
 
 .container {
 	width: 700px;
-	background-color: #fff;
+	background-color: white;
 	border: 10px solid #000;
 	margin-left: auto;
 	margin-right: auto;
