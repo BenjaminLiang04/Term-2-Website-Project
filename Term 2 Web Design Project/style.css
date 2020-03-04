@@ -8,11 +8,12 @@ li { float: left;
 }
 
 li a { display: block;
-	width: 60px;
+	width: 200px;
 	text-decoration: none;
 	padding: 14px 16px;
 	text-align: center;
 	color: #26ADE4;
+	font-size: 17pt;
 }
 
 a:link { text-decoration: none;
@@ -25,7 +26,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #270A33;
+	background-color: #0E002F;
 }
 
 body { background-image: url('zorasdom.jpg');
@@ -35,13 +36,26 @@ body { background-image: url('zorasdom.jpg');
 	background-position: center;
 }
 
+p { font-size: 18pt;
+	color: #EBF7F8;
+}
+
+
 
 div {
 	width: 1000px;
-	background-color: white;
-	border: solid 2px white;
+	background-color: #001521;
+	border: solid 4px white;
 	margin-left: auto;
 	margin-right: auto;
 	height: 700px;
+	padding: 10px 14px;
+}
+
+h1 { text-align: center;
+	font-size: 50pt;
+	color: #EBF7F8;
+}
+h2 { font-size: 27pt;
 }
 
